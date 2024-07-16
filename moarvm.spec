@@ -8,6 +8,9 @@ Summary: Moar (Metamodel On A Runtime) Virtual Machine, used for NQP and Rakudo
 URL: https://moarvm.org/
 License: Artistic
 Group: Development/Tools
+BuildRequires: perl
+BuildRequires: perl(ExtUtils::Command)
+BuildRequires: make
 
 %description
 Moar (Metamodel On A Runtime) Virtual Machine, used for NQP and Rakudo
