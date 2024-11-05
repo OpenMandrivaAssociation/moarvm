@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 
 Name: moarvm
-Version: 2024.06
+Version: 2024.10
 Release: 1
 Source0: https://moarvm.org/releases/MoarVM-%{version}.tar.gz
 Summary: Moar (Metamodel On A Runtime) Virtual Machine, used for NQP and Rakudo
