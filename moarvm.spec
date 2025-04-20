@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 
 Name: moarvm
-Version: 2024.10
+Version: 2025.04
 Release: 1
 Source0: https://moarvm.org/releases/MoarVM-%{version}.tar.gz
 Summary: Moar (Metamodel On A Runtime) Virtual Machine, used for NQP and Rakudo
@@ -42,6 +42,7 @@ perl Configure.pl --prefix %{_prefix} --libdir %{_libdir}
 %files devel
 %{_includedir}/moar
 %{_datadir}/pkgconfig/moar.pc
+%{_libdir}/libmoar.so-gdb.py
 # FIXME use system libs
 %{_includedir}/dyncall
 %{_includedir}/libtommath
